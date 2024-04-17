@@ -1,0 +1,119 @@
+/* Resetting default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+       background-image:url('https://media.istockphoto.com/id/1047533606/photo/empty-brown-plank-wood-shelf-at-black-layer-marble-tile-wall-background-mock-up-for-display.webp?b=1&s=170667a&w=0&k=20&c=svcOWPmb4Cc09LNfF7e5FtJzob2jRd8M4y6A9zVUqdI=') ;
+        background-size: cover;
+        background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  }
+  
+  /* Basic styles */
+  .header {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3em; /* Increase the font size of the header */
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }  
+  
+  .hero {
+    background-image: url('https://i.pinimg.com/originals/5c/f3/dc/5cf3dc9b57ad28bc6434f828e11fd83f.jpg');
+    color: #040404;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh; /* Set the height of the hero section to 100% of the viewport height */
+      }
+      
+      .hero h1 {
+        font-size: 3rem; /* Adjust the font size as needed */
+        color: #16035d;
+      }
+      .hero h2 {
+        font-size: 2rem; /* Adjust the font size as needed */
+      }
+  }
+  
+  .menu-list, .about, .contact {
+    text-align:center;
+    padding: 50px 0;
+  }
+  .menu-list,.about,.contact{
+    h1 {
+        font-size: 3rem; /* Adjust the font size as needed */
+      }
+      h2 {
+        font-size: 2rem; /* Adjust the font size as needed */
+      }
+      ul {
+        font-size: 2rem;
+        color: #fdffff;
+        list-style-type:disc;
+          
+          }
+       
+   }
+   .highlight{color: #16035d;}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position:relative;/* Set position to absolute */
+    width: 100%; /* Occupy full width */
+    bottom: 0; /* Set the footer to the bottom of the viewport */
+}
+
+footer p {
+    font-size: 0.8em;
+}
+  .highlight {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f8d49d; /* Background color of the box */
+    border: 2px solid #e0ac5b; /* Border color and width */
+    border-radius: 5px; /* Rounded corners */
+  }
+  .about,.contact,.menu-list {
+    color: rgb(255, 255, 255); /* Set the text color to red */
+  }
+  .nav-button {
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    font-size: 2em; /* Increase font size of the button text */
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #555; /* Change button background color on hover */
+  }
+  
